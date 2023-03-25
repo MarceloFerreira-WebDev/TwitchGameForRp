@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.x {
+  animation: x 2s linear infinite alternate;
+}
+
+.y {
+  animation: y 1s linear infinite alternate;
+}
+
+.a {
+  animation: x 3s linear infinite alternate;
+}
+
+.b {
+  animation: y 4s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(1024px);
+  }
+}
+
+@keyframes y {
+  100% {
+    transform: translateY(500px)
+  }
+}
+
+.lg-btn {
+  margin-left: 50%;
+}
