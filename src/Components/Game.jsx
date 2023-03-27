@@ -1,39 +1,41 @@
-import React, { useEffect, useState } from 'react';
-import sound1 from '../audios/Twitch_Original_Q_1.ogg';
+import React, { useState } from 'react';
+import audios from '../utils/audiosUtil';
 
 function Game() {
   const [gameStart, setGameStart] = useState('paused');
   const [directions, setDirections] = useState(['x', 'y']);
-  const audio = new Audio(sound1);
-
-  const handleClick = () => {
-    setGameStart('');
-    audio.play();
-  };
+  // const [fading, setFading] = useState(false);
 
   const getRandomClass = () => {
     const possibilities = [['x', 'a'], ['y', 'b']];
     return possibilities.map((element) => element[Math.floor(Math.random() * element.length)]);
   };
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setDirections(getRandomClass);
-    }, 1000);
+  const handleStartBtnClick = () => {
+    setGameStart('');
+    audios.randomQAudio().play();
+    setDirections(getRandomClass);
+    // setFading(true);
+  };
 
-    return () => clearInterval(interval);
-  }, []);
+  const handleTwitchClick = () => {
+    setGameStart('paused');
+    audios.stopAudio();
+    audios.randomExitQAudio().play();
+  };  
 
   return (
     <div style={ { width: '1024px', height: '768px', border: '1px solid black' } }>
-      <button onClick={handleClick} className="lg-btn"> Ache o Twitch!</button>
-      <div className={ directions[0] } style={{ animation: gameStart }}>
-        <img
-          src="https://www.freepnglogos.com/uploads/box-png/box-png-transparent-google-objects-pinterest-9.png" 
-          className={ directions[1] }
-          style={{ animation: gameStart, width: '100px' }}
-          onClick={ () => { console.log('dale'); } }
-        />
+      <button onClick={handleStartBtnClick} className="lg-btn"> Ache o Twitch!</button>
+      <div>
+        <div className={ directions[0] } style={{ animation: gameStart, width: '100px', marginLeft: '0px !important' }}>
+          <img
+            src="https://static.wikia.nocookie.net/leagueoflegends/images/c/c5/Twitch_Dragonslayer_%28Base%29.png" 
+            className={ gameStart === '' ? directions[1] : '' }
+            style={{ animation: gameStart, width: '200px' }}
+            onClick={handleTwitchClick}
+          />
+        </div>
       </div>
     </div>
     

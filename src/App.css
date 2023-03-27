@@ -37,12 +37,24 @@
   }
 }
 
+body {
+  background-image: url('https://cdn.discordapp.com/attachments/1008571202022944778/1089917399538606180/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.png');
+  background-size: 100%;
+}
+
 .x {
   animation: x 2s linear infinite alternate;
 }
 
 .y {
-  animation: y 1s linear infinite alternate;
+  opacity: 0;
+  animation: y 4s linear infinite alternate;
+}
+
+.y:hover, .b:hover {
+  opacity: 0.25;
+  border: 1em solid yellow ;
+  border-radius: 100%;
 }
 
 .a {
@@ -50,7 +62,8 @@
 }
 
 .b {
-  animation: y 4s linear infinite alternate;
+  opacity: 0;
+  animation: y 5s linear infinite alternate;
 }
 
 @keyframes x {
@@ -61,10 +74,14 @@
 
 @keyframes y {
   100% {
-    transform: translateY(500px)
+    transform: translateY(550px);
   }
 }
 
 .lg-btn {
-  margin-left: 50%;
+  width: 200px;
+  height: 100px;
+  margin-left: 40%;
+  font-size: large;
+  background-color: #61dafb;
 }
