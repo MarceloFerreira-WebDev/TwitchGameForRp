@@ -5,6 +5,7 @@ import twitch from '../images/pngegg.png';
 function Game() {
   const [gameStart, setGameStart] = useState('paused');
   const [directions, setDirections] = useState(['x', 'y']);
+  const [btnDisabled, setBtnDisabled] = useState(false);
   // const [fading, setFading] = useState(false);
 
   const getRandomClass = () => {
@@ -14,20 +15,24 @@ function Game() {
 
   const handleStartBtnClick = () => {
     setGameStart('');
+    setBtnDisabled(true);
     audios.randomQAudio().play();
     setDirections(getRandomClass);
     // setFading(true);
   };
 
   const handleTwitchClick = () => {
-    setGameStart('paused');
-    audios.stopAudio();
-    audios.randomExitQAudio().play();
+    if (gameStart === '') {
+      setGameStart('paused');
+      audios.stopAudio();
+      audios.randomExitQAudio().play();
+      setBtnDisabled(false);
+    }
   };
 
   return (
     <div style={ { width: '1024px', height: '768px', border: '1px solid black' } }>
-      <button onClick={handleStartBtnClick} className="lg-btn"> Ache o Twitch!</button>
+      <button onClick={handleStartBtnClick} className="lg-btn" disabled={btnDisabled}> Ache o Twitch!</button>
       <div>
         <div className={ directions[0] } style={{ animation: gameStart, width: '100px', marginLeft: '0px !important' }}>
           <img
