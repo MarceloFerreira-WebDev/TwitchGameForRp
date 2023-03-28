@@ -37,6 +37,11 @@
   }
 }
 
+body {
+  background-image: url('./images/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.png');
+  background-size: 100%;
+}
+
 .x {
   animation: x 2s linear infinite alternate;
 }
