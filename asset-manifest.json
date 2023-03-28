@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/twitchGameForRP/static/css/main.cfba0e2a.css",
+    "main.css": "/twitchGameForRP/static/css/main.edccda7b.css",
     "main.js": "/twitchGameForRP/static/js/main.6e8f8356.js",
     "static/js/787.a6f2c5b4.chunk.js": "/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js",
-    "static/media/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.png": "/twitchGameForRP/static/media/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.14c37427bc3144d9ebbe.png",
     "static/media/Q1.ogg": "/twitchGameForRP/static/media/Q1.7e15e505f729b394b62b.ogg",
     "static/media/Q2.ogg": "/twitchGameForRP/static/media/Q2.2fdff43a9d2f2e849ffb.ogg",
     "static/media/exitQ4.ogg": "/twitchGameForRP/static/media/exitQ4.795528c4db6e5798f17a.ogg",
@@ -13,12 +12,12 @@
     "static/media/Q4.ogg": "/twitchGameForRP/static/media/Q4.757ed80a186116a5f6bf.ogg",
     "static/media/exitQ2.ogg": "/twitchGameForRP/static/media/exitQ2.5312fb15bdfea225d843.ogg",
     "index.html": "/twitchGameForRP/index.html",
-    "main.cfba0e2a.css.map": "/twitchGameForRP/static/css/main.cfba0e2a.css.map",
+    "main.edccda7b.css.map": "/twitchGameForRP/static/css/main.edccda7b.css.map",
     "main.6e8f8356.js.map": "/twitchGameForRP/static/js/main.6e8f8356.js.map",
     "787.a6f2c5b4.chunk.js.map": "/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cfba0e2a.css",
+    "static/css/main.edccda7b.css",
     "static/js/main.6e8f8356.js"
   ]
 }
