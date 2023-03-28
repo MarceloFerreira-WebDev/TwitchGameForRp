@@ -1,23 +1,15 @@
 {
   "files": {
-    "main.css": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/css/main.7c8e9f25.css",
-    "main.js": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/js/main.144d3303.js",
-    "static/js/787.a6f2c5b4.chunk.js": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js",
-    "static/media/Q1.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/Q1.7e15e505f729b394b62b.ogg",
-    "static/media/Q2.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/Q2.2fdff43a9d2f2e849ffb.ogg",
-    "static/media/exitQ4.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/exitQ4.795528c4db6e5798f17a.ogg",
-    "static/media/exitQ3.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/exitQ3.2a3ac98bfc10240dfb8a.ogg",
-    "static/media/exitQ1.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/exitQ1.ea3cdbf81ed13a86c1de.ogg",
-    "static/media/Q3.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/Q3.2dba2a1f9d48793f07d4.ogg",
-    "static/media/Q4.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/Q4.757ed80a186116a5f6bf.ogg",
-    "static/media/exitQ2.ogg": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/media/exitQ2.5312fb15bdfea225d843.ogg",
-    "index.html": "//marceloferreiratrybe23b.github.io/twitchGameForRP/index.html",
-    "main.7c8e9f25.css.map": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/css/main.7c8e9f25.css.map",
-    "main.144d3303.js.map": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/js/main.144d3303.js.map",
-    "787.a6f2c5b4.chunk.js.map": "//marceloferreiratrybe23b.github.io/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js.map"
+    "main.css": "/twitchGameForRP/static/css/main.7c8e9f25.css",
+    "main.js": "/twitchGameForRP/static/js/main.73835584.js",
+    "static/js/787.a6f2c5b4.chunk.js": "/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js",
+    "index.html": "/twitchGameForRP/index.html",
+    "main.7c8e9f25.css.map": "/twitchGameForRP/static/css/main.7c8e9f25.css.map",
+    "main.73835584.js.map": "/twitchGameForRP/static/js/main.73835584.js.map",
+    "787.a6f2c5b4.chunk.js.map": "/twitchGameForRP/static/js/787.a6f2c5b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c8e9f25.css",
-    "static/js/main.144d3303.js"
+    "static/js/main.73835584.js"
   ]
 }
