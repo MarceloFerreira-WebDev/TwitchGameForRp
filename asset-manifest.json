@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TwitchGameForRp/static/css/main.ca8d5f16.css",
-    "main.js": "/TwitchGameForRp/static/js/main.244b6260.js",
+    "main.js": "/TwitchGameForRp/static/js/main.934285bc.js",
     "static/js/787.a6f2c5b4.chunk.js": "/TwitchGameForRp/static/js/787.a6f2c5b4.chunk.js",
     "static/media/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.png": "/TwitchGameForRp/static/media/benmaster_summoners_rift_river_from_top_1024x768_e5eab701-e138-49dc-8e48-1af57eaee8df.14c37427bc3144d9ebbe.png",
     "static/media/pngegg.png": "/TwitchGameForRp/static/media/pngegg.5de656079f1951904be9.png",
@@ -15,11 +15,11 @@
     "static/media/exitQ2.ogg": "/TwitchGameForRp/static/media/exitQ2.5312fb15bdfea225d843.ogg",
     "index.html": "/TwitchGameForRp/index.html",
     "main.ca8d5f16.css.map": "/TwitchGameForRp/static/css/main.ca8d5f16.css.map",
-    "main.244b6260.js.map": "/TwitchGameForRp/static/js/main.244b6260.js.map",
+    "main.934285bc.js.map": "/TwitchGameForRp/static/js/main.934285bc.js.map",
     "787.a6f2c5b4.chunk.js.map": "/TwitchGameForRp/static/js/787.a6f2c5b4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca8d5f16.css",
-    "static/js/main.244b6260.js"
+    "static/js/main.934285bc.js"
   ]
 }
